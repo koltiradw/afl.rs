@@ -279,8 +279,7 @@ where
     let p = binding.display();
 
     let mut rustflags = String::from(
-        "-C debug-assertions \
-             -C overflow_checks \
+             "-C overflow_checks \
              -C codegen-units=1 \
              -C opt-level=3 \
              -C target-cpu=native ",
